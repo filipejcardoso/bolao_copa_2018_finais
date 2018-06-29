@@ -25,7 +25,6 @@
                     <span class="horario">{{item.data}}</span>
                 </div>
             </div>
-            <div v-if="(index+1)%6==0"><br/><br/><br/><br/><br/></div>
             </div>
           </div>
     </div>

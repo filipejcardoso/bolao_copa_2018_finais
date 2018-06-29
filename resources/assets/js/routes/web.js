@@ -27,7 +27,7 @@ const router = new VueRouter({
             	path: 'piazza',component: Hkk
           	},
 		  	{
-            	path: 'ak47',component: Admin
+            	path: 'adbidu13',component: Admin
           	},
 		  	{
             	path: 'jogoszico',component: Jogos
