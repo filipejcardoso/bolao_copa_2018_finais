@@ -28,8 +28,8 @@ Vue.component('lista-jogos',ListaJogos);
 Vue.component('jogo-atual',JogoAtual);
 
 //============CONSTANTES=====================
-window.api = "copa.com";
-// window.api = "sandbox.eletrobidu.com.br";
+// window.api = "copa.com";
+window.api = "sandbox.eletrobidu.com.br";
 window.joao = "sandbox.bardojoao.com.br";
 window.mogibahr = "sandbox.mogibahr.com.br";
 
