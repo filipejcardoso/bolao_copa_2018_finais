@@ -70,14 +70,14 @@ methods: {
       
       this.axios.patch(url, payload)
       .then(response => {
-         this.updateJogosMogibahr(this.getIdMogibahr(id));
+         this.updateJogosMogibahr(id);
       })
       .catch(e => {
         alert(e)
       })
     },    
     updateJogosMogibahr(id){
-      const url = `http://${window.mogibahr}/api/jogos/${id}`;;
+      const url = `http://${window.mogibahr}/api/jogos/${this.getIdMogibahr(id)}`;;
       const payload = {"records":[{"escore1":`${$(`#input_1_${id}`).val()}`,"escore2":`${$(`#input_2_${id}`).val()}`}]};
       
       this.axios.patch(url, payload)
