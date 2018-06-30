@@ -70,19 +70,7 @@ methods: {
       
       this.axios.patch(url, payload)
       .then(response => {
-         this.updateJogosJoao(id);
-      })
-      .catch(e => {
-        alert(e)
-      })
-    },    
-    updateJogosJoao(id){
-      const url = `http://${window.joao}/api/jogos/${id}`;;
-      const payload = {"records":[{"escore1":`${$(`#input_1_${id}`).val()}`,"escore2":`${$(`#input_2_${id}`).val()}`}]};
-      
-      this.axios.patch(url, payload)
-      .then(response => {
-          this.updateJogosMogibahr(id);
+         this.updateJogosMogibahr(this.getIdMogibahr(id));
       })
       .catch(e => {
         alert(e)
@@ -109,19 +97,7 @@ methods: {
       
         this.axios.patch(url, payload)
         .then(response => {
-          this.updateStatusJoao(id, status);
-        })
-        .catch(e => {
-          alert(e)
-        })
-    },
-    updateStatusJoao(id, status){
-      const url = `http://${window.joao}/api/jogos/${id}`;
-      const payload = {"records":[{"status":`${status}`}]};
-      
-        this.axios.patch(url, payload)
-        .then(response => {
-          this.updateStatusMogibahr(id, status);
+          this.updateStatusMogibahr(this.getIdMogibahr(id), status);
         })
         .catch(e => {
           alert(e)
@@ -139,8 +115,17 @@ methods: {
         .catch(e => {
           alert(e)
         })
-    }
-  },
+    },
+    getIdMogibahr(id)
+    {
+      if(id == 7)
+        return 56;
+      else if(id == 8)
+        return 55;
+      else 
+        return (id + 48);
+    },
+},
   created(){
       this.loadJogos();
   }

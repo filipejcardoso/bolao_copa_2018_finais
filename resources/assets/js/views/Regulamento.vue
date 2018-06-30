@@ -41,12 +41,12 @@
             <div class="col s12">
 
               <h4>1. COMO PARTICIPAR</h4>
-              <p>Preencher as apostas, na folha oficial da EletroBidu, entregar e efetuar o pagamento no valor de R$20,00 na loja física localizada na Rua Francisco Franco nº 93 – Centro, Mogi das Cruzes - SP até o dia 11/06/2018 às 18:00.</p>
+              <p>Preencher as apostas, na folha oficial da EletroBidu, entregar e efetuar o pagamento no valor de R$20,00 na loja física localizada na Rua Francisco Franco nº 93 – Centro, Mogi das Cruzes - SP.</p>
 
               <br/>
 
               <h4>2. PONTUAÇÃO</h4>
-              <p>2.1 A pontuação dos participantes será feita em função de seus prognósticos para o resultado e o placar das partidas, conforme abaixo. Por resultado entende-se a indicação de vitória/derrota deste ou daquele time (incluindo-se o tempo regulamentar e excluindo a prorrogação e a disputa de pênaltis, quando houver). A pontuação dos acertos será feita a partir dos seguintes critérios não acumulativos:</p><br/>
+              <p>2.1 A pontuação dos participantes será feita em função de seus prognósticos para o resultado e o placar das partidas, conforme abaixo. Por resultado entende-se a indicação de vitória/derrota deste ou daquele time (incluindo-se o tempo regulamentar e incluido a prorrogação e a disputa de pênaltis, quando houver). A pontuação dos acertos será feita a partir dos seguintes critérios não acumulativos:</p><br/>
               <p>Apostando que a partida terá um vencedor:</p>
               <p>Acerto do placar exato – 25 pontos.</p>
               <p>Acerto apenas do time vencedor – 10 pontos</p><br/>
@@ -69,11 +69,19 @@
               <p>4.1 Contando que não acontece nenhum a premiação será da seguinte forma:</p>
               <p>1º colocado – 55% do valor arrecado</p>
               <p>2º colocado – 30% do valor arrecado</p>
-              <p>3º colocado – 10% do valor arrecado</p>
-              <p>Ulitmo Colocado (Lanterna) – 5% do valor arrecado</p>
+              <p>3º colocado – 15% do valor arrecado</p>
              <br/>
               <p>4.2. Caso haja empate, o prêmio será divido entre os ganhadores, com isso pode acontecer que o primeiro colocado receba um valor final menor que o segundo colocado.</p>
 
+             <br/>
+
+              <h4>5. APOSTAS</h4>
+              <p>4.1 Apostas poderão ser feitas até meia noite do dia anterior as fases:</p>
+              <p>- Oitavas</p>
+              <p>- Quartas</p>
+              <p>- Semi</p>
+              <p>- Final</p>
+              <p>- Terceiro e Quarto</p>
             </div>
 
 
