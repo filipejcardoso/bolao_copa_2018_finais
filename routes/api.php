@@ -16,7 +16,7 @@ Route::group(['prefix' =>'eletrobidu'],function()
 		Route::group(['prefix' =>'/{participantes}/apostas'],function()
 		{
 			Route::get('', ['uses' => 'ApostasController@index']);
-			// Route::patch('{id}', ['uses' => 'ApostasController@update']);
+			Route::patch('{id}', ['uses' => 'ApostasController@update']);
 		});
 	});
 
