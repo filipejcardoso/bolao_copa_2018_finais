@@ -37,6 +37,7 @@ class ParticipantesController extends Controller
             $participante['pv'] = 0;
             $participante['pp'] = 0;
             $participante['av'] = 0;
+            $participante['up'] = 1;
 
             foreach($p['aposta'] as $aposta)
                 if( $aposta['jogo']['status']>0)
@@ -66,6 +67,9 @@ class ParticipantesController extends Controller
                         $participante['av']++;
                     else if($aposta['escore1']<$aposta['escore2'] && $aposta['jogo']['escore1'] < $aposta['jogo']['escore2'])
                         $participante['av']++;
+
+                    if($aposta['created_at'] == $aposta['updated'])
+                        $participante['up'] = 0;
                 }
 
             array_push($classificacao, $participante);

@@ -122,8 +122,11 @@ methods: {
         return 56;
       else if(id == 8)
         return 55;
-      else 
+      else if(id<10) 
         return (id + 48);
+      else
+        return (id + 8);
+
     },
 },
   created(){
