@@ -124,8 +124,10 @@ methods: {
         return 55;
       else if(id<10) 
         return (id + 48);
-      else
+      else if(id<56)
         return (id + 8);
+      else
+        return (id+10);
 
     },
 },
